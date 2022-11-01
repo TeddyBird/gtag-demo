@@ -35,7 +35,12 @@
                 gtag('event', 'link_click', {
                     'link_url': e.target.href,
                     'link_text': e.target.textContent,
-                    'link_class': e.target.className
+                    'link_class': e.target.className,
+                    'link_items': [
+                        {
+                            'xxx': 13
+                        }
+                    ]
                 })
                 console.log(e.target);
             }, false);
